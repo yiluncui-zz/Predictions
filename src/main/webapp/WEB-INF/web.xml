@@ -1,0 +1,17 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>PredictionsServlet</servlet-name>
+    <display-name>PredictionsServlet</display-name>
+    <description></description>
+    <servlet-class>com.foobar.predictions.PredictionsServlet</servlet-class>
+  </servlet>
+    <servlet-mapping>
+        <servlet-name>PredictionsServlet</servlet-name>
+        <url-pattern>/PredictionsServlet</url-pattern>
+    </servlet-mapping>
+</web-app>
